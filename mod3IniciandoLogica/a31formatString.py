@@ -4,12 +4,14 @@ peso = 95
 imc = peso / altura ** 2
 
 # Formatação de Strings 
-#.2f casas decimais
+#.2f casas decimais ou ,.2f
 linha_1 = f'{nome} tem {altura:.2f} de altura'
+linha_2 = f'pesa {peso} quilos e seu imc é'
+linha_3 = f'{imc:.2f}'
 
-print(nome,'tem ',altura,'de altura,',)
-print('pesa',peso,'quilos e seu IMC é,',)
-print(imc)
+print(linha_1)
+print(linha_2)
+print(linha_3)
 
 
 # Luiz Otávio tem 1.80 de altura,
