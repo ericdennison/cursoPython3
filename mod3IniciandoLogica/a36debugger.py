@@ -1,0 +1,1 @@
+# O Debugger do VS Code e o interpretador do Python lendo os códigos
