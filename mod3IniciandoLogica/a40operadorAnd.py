@@ -20,5 +20,8 @@
 #     print('Sair')
 
 # Avaliação de curto circuito
-print(True and False and True)
+# print(True and False and True)
+
+if 1 and 1:
+    print(True and 1 and False)
 
