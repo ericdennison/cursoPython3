@@ -15,6 +15,7 @@ print(variavel[0:5])
 print(variavel[:5])
 print(variavel[-8:-2])
 print(len(variavel[3]))
+print(len(variavel)) #quantidade de elementos
 print(variavel[0:len(variavel):1])
 print(variavel[0:9:1])#pegando do inicio 0 e finalizando no 9 de 1 em um passo
 print(variavel[0:9:2])
