@@ -8,7 +8,7 @@ capitalize -> luiz Otávio -> Luiz Otávio
 string = 'luiz Otávio'
 # outra_variavel = string
 # string[3] = 'ABC' #não pode ser mudado o valor
-outra_variavel = f'{string[:3]}ABC{string[4:]}'
+outra_variavel = f'{string[:3]}ABC{string[4:]}' # mudar o valor
 print(string[3]) 
 print(outra_variavel)
 print(string.capitalize())
