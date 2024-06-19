@@ -1,10 +1,15 @@
 '''
-barra invertida \ para quebra de linha
-count -> contagem strings iguais
+Debugger
+
+executar depurar [ctrl+shift+D]
+marcar linha debugger
+clicar depurador do python
+utilizar o contornar [F10]
 '''
 frase = 'O Python é uma linguagem de programção'\
         'multiparadigma.'\
         'Python foi criado por Guido Van Rossum'
+        
 
 print(frase.count('Python')) #2
 
@@ -15,7 +20,7 @@ print(frase.count('Python')) #2
 
 #     print(letra_atual)
 #     i += 1
-#     contagem += 1
+#     comod3IniciandoLogica/a70iterandoStringWhile.pyntagem += 1
 # print(contagem)
 
 # resposta Professor
