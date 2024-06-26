@@ -14,3 +14,18 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """
+palavra_secreta = 'perfume'
+letra = input('Digite apenas uma letra: ')
+
+# contador = 0
+if letra == letra[0:1]:
+    if letra in palavra_secreta:
+        acertos = palavra_secreta.replace(letra, '*')
+        print(acertos)
+    
+
+
+
+else:
+    print('Digite apenas uma letra')
+
