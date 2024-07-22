@@ -7,6 +7,7 @@ O escopo local é o escopo onde apenas nomes do mesmo local
 podem ser alcançados.
 Não temos acesso a nomes de escopos internos nos escopos externos
 A palavra global faz uma variável do escopo ser a mesma no escopo interno
+Call Stack -> Pilha chamada
 """
 
 x = 1 # x criado escopo global
