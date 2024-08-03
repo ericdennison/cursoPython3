@@ -16,16 +16,24 @@ usuário.
 """
 palavra_secreta = 'perfume'
 letra = input('Digite apenas uma letra: ')
+acertos = 0
 
-# contador = 0
-if letra == letra[0:1]:
-    if letra in palavra_secreta:
-        acertos = palavra_secreta.replace(letra, '*')
-        print(acertos)
+contador = 0
+while contador < len(palavra_secreta):
+    if letra == letra[0:1]:
+        if letra in palavra_secreta:
+            letra_correta = palavra_secreta.replace('*',letra)
+            acertos += 1
+            print(letra_correta)
+
+                
+        elif letra not in palavra_secreta:
+            letra_correta = palavra_secreta.replace(letra, '*')
+            print(letra_correta)
+            continue
+
+    else:
+        print('Digite apenas uma letra')
+        continue
     
-
-
-
-else:
-    print('Digite apenas uma letra')
-
+    contador += 1
