@@ -10,5 +10,8 @@ for numero in range(10):
 
 # usando comprehension
 
-lista = [numero for numero in range(10)] 
+lista = [
+    numero * 2
+    for numero in range(10)] 
+
 print(lista)
