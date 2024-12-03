@@ -9,6 +9,7 @@
 # pop - Apaga um item com a chave especificada (del)
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
+import copy
 
 d1 = {
     'c1': 1,
@@ -23,6 +24,9 @@ d1 = {
 # cópia gerada d2
 # cópia rasa
 d2 = d1.copy()
+
+# cópia profunda 
+# d2 = copy.deepcopy(d1)
 
 d2['c1'] = 1000
 d2['l1'][1] = 999999
