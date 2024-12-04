@@ -34,6 +34,8 @@ novos_produtos.append({'nome': 'Produto 6', 'preco': 50.00})
 novos_produtos.append({'nome': 'Produto 7', 'preco': 30.33})
 novos_produtos.append({'nome': 'Produto 8', 'preco': 40.00})
 
+print(produtos)
+print()
 print(novos_produtos)
 print()
 
