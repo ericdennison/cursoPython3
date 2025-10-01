@@ -1,7 +1,7 @@
 # Variáveis livres + nonlocal (locals, globals)
 # variável livre - variável não definida dentro escopo função
-# locals -> quais variáveis locais
-# __code__.co_freevars -> acesso variáveis livres
+# locals -> mostra variáveis locais
+# __code__.co_freevars -> mostra variáveis livres
 # globals - mostra variáveis globais
 # nonlocal -> marca variável não local
 
